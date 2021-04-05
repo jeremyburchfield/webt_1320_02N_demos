@@ -1,0 +1,116 @@
+
+body {
+    
+}
+
+header {
+    background-color: #0B5ED7;
+    padding: 10px 0;
+    margin: 5px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    font-family: 'New Tegomin', serif;
+}
+
+/* mobile styles */
+
+section {
+    background-color: #0B5ED7;
+    margin: 5px;
+    padding: 10px;
+}
+
+section h2 {
+    text-align: center;
+    color: white;
+    font-family: 'New Tegomin', serif;
+}
+
+footer {
+    background-color: #0B5ED7;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+    font-family: 'Kiwi Maru', serif;
+}
+
+#menu {
+    display: none;
+}
+
+.slicknav_menu {
+    background-color: #0B5ED7;
+}
+
+.slicknav_btn {
+    background-color: #000;
+}
+
+/* tablet styles */
+
+@media only screen and (min-width: 768px) {
+   .slicknav_menu {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    header {
+        height: 250px;
+    }
+
+    header h1 {
+        font-size: 50px;
+        line-height: 200px;
+    }
+
+    nav {
+        text-align: center;
+        background-color: #000;
+        padding: 5px 0;
+    }
+
+    nav ul {
+        padding: 0;
+        list-style-type: none;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        display: block;
+        background-color: #0B5ED7;
+        padding: 10px 0;
+        width: 175px;
+        color: white;
+        font-size: 1.5em;
+        text-decoration: none;
+        font-family: 'Kiwi Maru', serif;
+    }
+
+    nav li a:hover {
+        background-color: black;
+        text-decoration: underline;
+    }
+    
+    #accordion, #tabs {
+        font-family: 'Kiwi Maru', serif;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+    }
+}
+
